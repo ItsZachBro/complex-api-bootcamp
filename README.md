@@ -1,22 +1,27 @@
-# 📊 Project: Complex API 
+# IP Checker
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+IP Checker is a simple web application that allows users to view their current IP address, the location associated with the IP address, and the flag of the country where the IP address is located.
 
-### How to submit your code for review:
+## Features
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- Displays the user's IP address
+- Provides information about the location associated with the IP address (country and locality)
+- Shows the flag of the country where the IP address is located
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Usage
+
+1. Open the `index.html` file in a web browser.
+2. The application will load and retrieve the user's IP address automatically.
+3. Once the IP address is fetched, the location information and the corresponding country flag will be displayed.
+
+## API References
+
+- [ipify API](https://www.ipify.org/): Used to fetch the user's IP address.
+- [ip-api.com API](https://ipapi.co/): Used to retrieve location information based on the IP address.
+- [restcountries API](https://restcountries.com/): Used to get the flag of the country associated with the IP address.
