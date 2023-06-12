@@ -23,5 +23,5 @@ IP Checker is a simple web application that allows users to view their current I
 ## API References
 
 - [ipify API](https://www.ipify.org/): Used to fetch the user's IP address.
-- [ip-api.com API](https://ipapi.co/): Used to retrieve location information based on the IP address.
+- [ipapi.co API](https://ipapi.co/): Used to retrieve location information based on the IP address.
 - [restcountries API](https://restcountries.com/): Used to get the flag of the country associated with the IP address.
