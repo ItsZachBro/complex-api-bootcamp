@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: linear-gradient(to bottom, #c7ffb1, #d6feff);
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  background-image: url(fxac.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; 
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 3rem;
+}
+
+#info {
+  text-align: center;
+  background-color: azure;
+  font-size: 2.8rem;
+  border-radius: 5%;
+  border: solid .4rem rgb(1, 2, 37);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
